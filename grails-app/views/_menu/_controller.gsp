@@ -7,8 +7,9 @@
 				<g:link controller="${logicalPropertyName}">
 					<g:if test="${logicalPropertyName.contains('home')}"><i class="glyphicon glyphicon-home"></i></g:if>
 					<g:if test="${logicalPropertyName.contains('game')}"><i class="glyphicon glyphicon-tower"></i></g:if>
-					<g:if test="${logicalPropertyName.contains('team')}"><i class="glyphicon glyphicon-globe"></i></g:if>
+					<g:if test="${logicalPropertyName.contains('team')}"><i class="glyphicon glyphicon-flag"></i></g:if>
 					<g:if test="${logicalPropertyName.contains('bet')}"> <i class="glyphicon glyphicon-fire"></i></g:if>
+					<g:if test="${logicalPropertyName.contains('stats')}"> <i class="glyphicon glyphicon-stats"></i></g:if>
 					${logicalPropertyName.capitalize()}
 				</g:link>
 			</li>

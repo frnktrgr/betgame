@@ -8,7 +8,7 @@
 <body>
 
 	<section id="intro" class="first">
-		<h2>Betgame</h2>
+		<h1 class="text-center"><small><bg:flag net="br" /> betgame <asset:image class="logo" src="brand_logo.png" alt="${meta(name:'app.name')}" width="16px" height="16px"/>  wm2014 <bg:flag net="br" /></small></h1>
 		<div class="panel-group" id="accordion">
 			<div class="panel panel-default">
 				<g:if test="${nextGames}">
